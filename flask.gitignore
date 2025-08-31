@@ -1,0 +1,46 @@
+gitignore
+Bytecode files
+pycache/
+*.py[cod]
+
+Virtual environment
+.venv/
+env/
+ENV/
+venv/
+*.env
+.env.*
+.Python
+
+Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+Logs and debug
+*.log
+*.pot
+*.mo
+
+IDE files
+.vscode/
+.idea/
+
+System files
+.DS_Store
+Thumbs.db
+
+Flask specific
+instance/
+*.sqlite3
+*.db
+*.pkl
+
+Coverage reports
+htmlcov/
+.coverage
+.cache
+
+Pytest
+.pytest_cache/
